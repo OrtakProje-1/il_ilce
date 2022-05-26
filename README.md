@@ -15,6 +15,15 @@ Türkiyedeki il ve ilçeleri kolaylıkla seçmek için bir Flutter paketi
 
 ## Kullanım
 
+## Projenize Nasıl Eklersiniz
+pubspec.yaml
+``` yaml
+dependencies:
+  il_ilce:
+    git: https://github.com/OrtakProje-1/il_ilce.git
+
+```
+
 
 ```dart
 IlService service = IlService();
